@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
             myFragment.arguments = bundle
 
-            Log.i("***5555", "${et_id.text.toString()}")
+            Log.i("***5555", "${et_id.text}")
         }
 
 
