@@ -1,5 +1,5 @@
 # Bundle
-從Activity傳資料到Fragment
+從Activity傳資料(圖片與文字)到Fragment
 
 ## Views
 * Button
