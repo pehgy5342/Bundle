@@ -9,7 +9,7 @@
 
     <EditText
             android:id="@+id/et_id"
-            android:hint="請輸入ID"
+            android:hint="@string/id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +18,7 @@
 
     <EditText
             android:id="@+id/et_sex"
-            android:hint="請輸入性別"
+            android:hint="@string/sex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -39,7 +39,7 @@
 
     <Button
             android:id="@+id/btn_give"
-            android:text="傳送"
+            android:text="@string/send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"

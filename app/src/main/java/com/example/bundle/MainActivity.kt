@@ -21,11 +21,10 @@ class MainActivity : AppCompatActivity() {
 
             val bundle = Bundle()
 
-            bundle.putInt("image",R.drawable.seal)
-        bundle.putString("id", et_id.text.toString())
-//        bundle.putString("id", "1111")
-
+            bundle.putInt("image", R.drawable.seal)
+            bundle.putString("id", et_id.text.toString())
             bundle.putString("sex", et_sex.text.toString())
+
             myFragment.arguments = bundle
 
             Log.i("***5555", "${et_id.text.toString()}")

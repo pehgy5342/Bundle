@@ -32,6 +32,7 @@ class MyFragment : Fragment() {
     ): View? {
         val view = LayoutInflater.from(context).inflate(R.layout.fragment_my, container, false)
 
+
         arguments?.let {
             getId = it.getString("id")
           getSex = it.getString("sex")
